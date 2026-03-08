@@ -220,7 +220,13 @@
         },
         {
           "name": "LegWidth",
-          "ioValue": 10
+          "ioValue": 80,
+          "currentEquation": "LegWidth"
+        },
+        {
+          "name": "EdgeHeight",
+          "ioValue": 80,
+          "currentEquation": "EdgeHeight"
         }
       ],
       "topLevel": false,
@@ -260,24 +266,26 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.21197411003236247,
-          "y": 0.27020785219399535,
+          "x": 0.1429341963322546,
+          "y": 0.19168591224018475,
           "uniqueID": "id-5280",
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 10
+              "ioValue": 80,
+              "currentEquation": "EdgeHeight"
             },
             {
               "name": "y length",
-              "ioValue": 10
+              "ioValue": 80,
+              "currentEquation": "LegWidth"
             }
           ]
         },
         {
           "atomType": "Equation",
           "x": 0.06310679611650485,
-          "y": 0.5773672055427251,
+          "y": 0.5889145496535797,
           "uniqueID": "id-5284",
           "name": "TopHeight - WT",
           "ioValues": [
@@ -290,21 +298,63 @@
           "currentEquation": "TopHeight - WT"
         },
         {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.374,
+          "uniqueID": "id-5299",
+          "name": "EdgeHeight"
+        },
+        {
           "atomType": "Equation",
-          "x": 0.255663430420712,
-          "y": 0.6258660508083141,
-          "uniqueID": "id-5294",
-          "name": "EdgeHeight",
+          "x": 0.07011866235167205,
+          "y": 0.7759815242494226,
+          "uniqueID": "id-5302",
+          "name": "x + y",
           "ioValues": [
             {
-              "name": "EdgeHeight",
+              "name": "x",
+              "ioValue": 1
+            },
+            {
+              "name": "y",
               "ioValue": 1
             }
           ],
-          "currentEquation": "EdgeHeight"
+          "currentEquation": "x + y"
+        },
+        {
+          "atomType": "Move",
+          "x": 0.21035598705501618,
+          "y": 0.20785219399538107,
+          "uniqueID": "id-5306",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 40,
+              "currentEquation": "EdgeHeight/2"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
         }
       ],
-      "allConnectors": [],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5280",
+          "ap2ID": "id-5306"
+        }
+      ],
       "fileTypeVersion": 1
     },
     {
