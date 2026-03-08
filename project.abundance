@@ -671,8 +671,8 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.19902912621359223,
-          "y": 0.8221709006928407,
+          "x": 0.18069039913700108,
+          "y": 0.8568129330254042,
           "uniqueID": "id-5387",
           "ioValues": [
             {
@@ -711,11 +711,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": -20.95,
+              "currentEquation": "- (EdgeHeight / 2  - WoodThick)"
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": null
             },
             {
               "name": "zDist",
@@ -725,8 +726,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.28802588996763756,
-          "y": 0.8521939953810623,
+          "x": 0.2961165048543689,
+          "y": 0.8868360277136258,
           "uniqueID": "id-5505",
           "ioValues": [
             {
@@ -735,7 +736,8 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": 20.95,
+              "currentEquation": "EdgeHeight / 2  - WoodThick"
             },
             {
               "name": "yDist",
@@ -807,6 +809,31 @@
               "name": "z-axis degrees",
               "ioValue": 180,
               "currentEquation": "180"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.22761596548004315,
+          "y": 0.836027713625866,
+          "uniqueID": "id-5531",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": -7.0710678118654755,
+              "currentEquation": "- (ScrewHead * sqrt(2))/2"
             }
           ]
         }
@@ -895,12 +922,7 @@
         {
           "ap2Name": "geometry",
           "ap1ID": "id-5387",
-          "ap2ID": "id-5499"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-5387",
-          "ap2ID": "id-5505"
+          "ap2ID": "id-5531"
         },
         {
           "ap2Name": "x length",
@@ -951,6 +973,16 @@
           "ap2Name": "Shape 2",
           "ap1ID": "id-5520",
           "ap2ID": "id-5511"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5531",
+          "ap2ID": "id-5499"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5531",
+          "ap2ID": "id-5505"
         }
       ],
       "fileTypeVersion": 1
