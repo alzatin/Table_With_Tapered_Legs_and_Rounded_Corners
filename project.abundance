@@ -7,8 +7,8 @@
   "ioValues": [
     {
       "name": "WoodThick",
-      "ioValue": 19.05,
-      "currentEquation": "19.05"
+      "ioValue": 20,
+      "currentEquation": "20"
     },
     {
       "name": "TableLength",
@@ -22,6 +22,11 @@
       "name": "TopHeight",
       "ioValue": 3000,
       "currentEquation": "3000"
+    },
+    {
+      "name": "EdgeLip",
+      "ioValue": 40,
+      "currentEquation": "40"
     }
   ],
   "topLevel": true,
@@ -40,8 +45,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.13322545846817693,
-      "y": 0.20554272517321018,
+      "x": 0.11326860841423947,
+      "y": 0.10392609699769054,
       "uniqueID": "id-5195",
       "ioValues": [
         {
@@ -78,14 +83,14 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.308,
+      "y": 0.3071593533487298,
       "uniqueID": "id-5214",
       "name": "TopHeight"
     },
     {
       "atomType": "Extrude",
-      "x": 0.2233009708737864,
-      "y": 0.20554272517321018,
+      "x": 0.1925566343042071,
+      "y": 0.12471131639722863,
       "uniqueID": "id-5217",
       "ioValues": [
         {
@@ -94,9 +99,24 @@
         },
         {
           "name": "height",
-          "ioValue": 10
+          "ioValue": 20
         }
       ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.374,
+      "uniqueID": "id-5221",
+      "name": "EdgeLip"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.06256742179072276,
+      "y": 0.6581986143187066,
+      "uniqueID": "id-5224",
+      "name": "TopHeight - WoodThick",
+      "currentEquation": "TopHeight - WoodThick"
     }
   ],
   "allConnectors": [
@@ -105,7 +125,11 @@
       "ap1ID": "id-5195",
       "ap2ID": "id-5217"
     },
-    null,
+    {
+      "ap2Name": "height",
+      "ap1ID": "id-5199",
+      "ap2ID": "id-5217"
+    },
     {
       "ap2Name": "x length",
       "ap1ID": "id-5202",
@@ -115,6 +139,11 @@
       "ap2Name": "y length",
       "ap1ID": "id-5205",
       "ap2ID": "id-5195"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-5217",
+      "ap2ID": "id-5193"
     }
   ],
   "unitsKey": "MM",
