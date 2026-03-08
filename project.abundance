@@ -536,6 +536,22 @@
           "y": 0.5720000000000001,
           "uniqueID": "id-5346",
           "name": "NutThick"
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.13915857605177992,
+          "y": 0.6212471131639723,
+          "uniqueID": "id-5349",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 10
+            },
+            {
+              "name": "y length",
+              "ioValue": 10
+            }
+          ]
         }
       ],
       "allConnectors": [
