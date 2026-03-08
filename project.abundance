@@ -296,21 +296,6 @@
           ]
         },
         {
-          "atomType": "Equation",
-          "x": 0.03182308522114347,
-          "y": 0.7852193995381063,
-          "uniqueID": "id-5284",
-          "name": "TopHeight - WT",
-          "ioValues": [
-            {
-              "name": "WT",
-              "ioValue": 19.05,
-              "currentEquation": "WoodThick"
-            }
-          ],
-          "currentEquation": "TopHeight - WT"
-        },
-        {
           "atomType": "Input",
           "x": 0.01815,
           "y": 0.374,
@@ -556,10 +541,39 @@
           ]
         },
         {
+          "atomType": "Circle",
+          "x": 0.13861920172599784,
+          "y": 0.7736720554272518,
+          "uniqueID": "id-5357",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 5,
+              "currentEquation": "BoltDiameter"
+            }
+          ]
+        },
+        {
+          "atomType": "Difference",
+          "x": 0.20010787486515644,
+          "y": 0.6951501154734411,
+          "uniqueID": "id-5360",
+          "ioValues": [
+            {
+              "name": "geometry1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "geometry2",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
           "atomType": "Extrude",
-          "x": 0.21413160733549083,
-          "y": 0.6235565819861432,
-          "uniqueID": "id-5353",
+          "x": 0.26645091693635387,
+          "y": 0.7251732101616628,
+          "uniqueID": "id-5364",
           "ioValues": [
             {
               "name": "geometry",
@@ -571,6 +585,64 @@
               "currentEquation": "WoodThick"
             }
           ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.3333333333333333,
+          "y": 0.74364896073903,
+          "uniqueID": "id-5368",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 40,
+              "currentEquation": "EdgeHeight/2"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.4077669902912621,
+          "y": 0.76905311778291,
+          "uniqueID": "id-5374",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 90,
+              "currentEquation": "90"
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Constant",
+          "x": 0.02481121898597627,
+          "y": 0.7113163972286374,
+          "uniqueID": "id-5380",
+          "name": "ScrewHead",
+          "value": 10
         }
       ],
       "allConnectors": [
@@ -620,9 +692,29 @@
           "ap2ID": "id-5260"
         },
         {
-          "ap2Name": "geometry",
+          "ap2Name": "geometry1",
           "ap1ID": "id-5349",
-          "ap2ID": "id-5353"
+          "ap2ID": "id-5360"
+        },
+        {
+          "ap2Name": "geometry2",
+          "ap1ID": "id-5357",
+          "ap2ID": "id-5360"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5360",
+          "ap2ID": "id-5364"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5364",
+          "ap2ID": "id-5368"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5368",
+          "ap2ID": "id-5374"
         }
       ],
       "fileTypeVersion": 1
