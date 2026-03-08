@@ -545,11 +545,30 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 10
+              "ioValue": 80,
+              "currentEquation": "EdgeHeight"
             },
             {
               "name": "y length",
-              "ioValue": 10
+              "ioValue": 182.31846327358505,
+              "currentEquation": "4*WoodThick + 2*LegWidth - 2*sqrt(2)*WoodThick"
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.21413160733549083,
+          "y": 0.6235565819861432,
+          "uniqueID": "id-5353",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 19.05,
+              "currentEquation": "WoodThick"
             }
           ]
         }
@@ -599,6 +618,11 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-5335",
           "ap2ID": "id-5260"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5349",
+          "ap2ID": "id-5353"
         }
       ],
       "fileTypeVersion": 1
