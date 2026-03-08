@@ -294,18 +294,14 @@
           "x": 0.255663430420712,
           "y": 0.6258660508083141,
           "uniqueID": "id-5294",
-          "name": "x + y",
+          "name": "EdgeHeight",
           "ioValues": [
             {
-              "name": "x",
-              "ioValue": 1
-            },
-            {
-              "name": "y",
+              "name": "EdgeHeight",
               "ioValue": 1
             }
           ],
-          "currentEquation": "x + y"
+          "currentEquation": "EdgeHeight"
         }
       ],
       "allConnectors": [],
