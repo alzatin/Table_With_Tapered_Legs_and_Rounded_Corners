@@ -1872,23 +1872,152 @@
             {
               "name": "Shape 3",
               "ioValue": null
+            },
+            {
+              "name": "Shape 4",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 5",
+              "ioValue": null
             }
           ]
         },
         {
           "atomType": "Rectangle",
-          "x": 0.2184466019417476,
-          "y": 0.6096997690531177,
+          "x": 0.2222222222222222,
+          "y": 0.6120092378752886,
           "uniqueID": "id-6135",
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": null
+              "ioValue": 2866.118463273585,
+              "currentEquation": "TableWidth  - 2 * EdgeLip - 2*sqrt(2) *WoodThick"
             },
             {
               "name": "y length",
               "ioValue": 19.05,
               "currentEquation": "WoodThick"
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.27292340884573896,
+          "y": 0.6073903002309469,
+          "uniqueID": "id-6139",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 80,
+              "currentEquation": "EdgeHeight"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.32470334412081986,
+          "y": 0.6120092378752886,
+          "uniqueID": "id-6143",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 2490.475,
+              "currentEquation": "TableLength/2 - WoodThick/2"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 19.05,
+              "currentEquation": "WoodThick"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.3263214670981661,
+          "y": 0.7413394919168591,
+          "uniqueID": "id-6149",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": -2490.475,
+              "currentEquation": "-(TableLength/2 - WoodThick/2)"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 19.05,
+              "currentEquation": "WoodThick"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.6467098166127293,
+          "y": 0.14780600461893764,
+          "uniqueID": "id-6157",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": -19.05,
+              "currentEquation": "-WoodThick"
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.697950377562028,
+          "y": 0.14087759815242495,
+          "uniqueID": "id-6163",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 180,
+              "currentEquation": "180"
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
             }
           ]
         }
@@ -1970,8 +2099,43 @@
           "ap2ID": "id-6129"
         },
         {
-          "ap2Name": "number or geometry",
+          "ap2Name": "geometry",
           "ap1ID": "id-6129",
+          "ap2ID": "id-6157"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-6135",
+          "ap2ID": "id-6139"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-6139",
+          "ap2ID": "id-6143"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-6139",
+          "ap2ID": "id-6149"
+        },
+        {
+          "ap2Name": "Shape 4",
+          "ap1ID": "id-6143",
+          "ap2ID": "id-6129"
+        },
+        {
+          "ap2Name": "Shape 5",
+          "ap1ID": "id-6149",
+          "ap2ID": "id-6129"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-6157",
+          "ap2ID": "id-6163"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-6163",
           "ap2ID": "id-6014"
         }
       ],
