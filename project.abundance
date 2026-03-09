@@ -1814,8 +1814,8 @@
             },
             {
               "name": "xDist",
-              "ioValue": 1490.475,
-              "currentEquation": "TableWidth/2 - WoodThick/2"
+              "ioValue": 1450.475,
+              "currentEquation": "TableWidth/2 - WoodThick/2 - EdgeLip"
             },
             {
               "name": "yDist",
@@ -1840,8 +1840,8 @@
             },
             {
               "name": "xDist",
-              "ioValue": -1490.475,
-              "currentEquation": "-(TableWidth/2 - WoodThick/2)"
+              "ioValue": -1450.475,
+              "currentEquation": "-(TableWidth/2 - WoodThick/2 -EdgeLip)"
             },
             {
               "name": "yDist",
@@ -1935,8 +1935,8 @@
             },
             {
               "name": "yDist",
-              "ioValue": 2490.475,
-              "currentEquation": "TableLength/2 - WoodThick/2"
+              "ioValue": 2450.475,
+              "currentEquation": "TableLength/2 - WoodThick/2 - EdgeLip"
             },
             {
               "name": "zDist",
@@ -1961,8 +1961,8 @@
             },
             {
               "name": "yDist",
-              "ioValue": -2490.475,
-              "currentEquation": "-(TableLength/2 - WoodThick/2)"
+              "ioValue": -2450.475,
+              "currentEquation": "-(TableLength/2 - WoodThick/2 - EdgeLip)"
             },
             {
               "name": "zDist",
