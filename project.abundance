@@ -39,8 +39,8 @@
     },
     {
       "name": "CornerRound",
-      "ioValue": 20,
-      "currentEquation": "20"
+      "ioValue": 80,
+      "currentEquation": "80"
     },
     {
       "name": "BoltDiameter",
@@ -1434,7 +1434,7 @@
         },
         {
           "name": "CornerRound",
-          "ioValue": 20,
+          "ioValue": 80,
           "currentEquation": "CornerRound"
         }
       ],
@@ -1509,7 +1509,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 40,
+              "ioValue": 160,
               "currentEquation": "CornerRound * 2"
             }
           ]
@@ -1526,13 +1526,13 @@
             },
             {
               "name": "xDist",
-              "ioValue": 200,
-              "currentEquation": "TableWidth/2"
+              "ioValue": 120,
+              "currentEquation": "TableWidth/2 - CornerRound"
             },
             {
               "name": "yDist",
-              "ioValue": 500,
-              "currentEquation": "TableLength/2"
+              "ioValue": 420,
+              "currentEquation": "TableLength/2- CornerRound"
             },
             {
               "name": "zDist",
@@ -1552,17 +1552,18 @@
             },
             {
               "name": "xDist",
-              "ioValue": -200,
-              "currentEquation": "-TableWidth/2"
+              "ioValue": -120,
+              "currentEquation": "-(TableWidth/2- CornerRound)"
             },
             {
               "name": "yDist",
-              "ioValue": 500,
-              "currentEquation": "TableLength/2"
+              "ioValue": 420,
+              "currentEquation": "TableLength/2- CornerRound"
             },
             {
               "name": "zDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             }
           ]
         },
@@ -1578,17 +1579,18 @@
             },
             {
               "name": "xDist",
-              "ioValue": 200,
-              "currentEquation": "TableWidth/2"
+              "ioValue": 120,
+              "currentEquation": "TableWidth/2- CornerRound"
             },
             {
               "name": "yDist",
-              "ioValue": -500,
-              "currentEquation": "-TableLength/2"
+              "ioValue": -420,
+              "currentEquation": "-(TableLength/2- CornerRound)"
             },
             {
               "name": "zDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             }
           ]
         },
@@ -1604,17 +1606,18 @@
             },
             {
               "name": "xDist",
-              "ioValue": -200,
-              "currentEquation": "-TableWidth/2"
+              "ioValue": -120,
+              "currentEquation": "-(TableWidth/2- CornerRound)"
             },
             {
               "name": "yDist",
-              "ioValue": -500,
-              "currentEquation": "-TableLength/2"
+              "ioValue": -420,
+              "currentEquation": "-(TableLength/2- CornerRound)"
             },
             {
               "name": "zDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             }
           ]
         },
@@ -1648,7 +1651,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-circle-20-200-500-0",
+                "geometry": "move-circle-80-120-420-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -1675,7 +1678,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-circle-20--200-500-0",
+                "geometry": "move-circle-80--120-420-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -1702,7 +1705,7 @@
             {
               "name": "Shape 3",
               "ioValue": {
-                "geometry": "move-circle-20-200--500-0",
+                "geometry": "move-circle-80-120--420-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -1729,7 +1732,7 @@
             {
               "name": "Shape 4",
               "ioValue": {
-                "geometry": "move-circle-20--200--500-0",
+                "geometry": "move-circle-80--120--420-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -2001,8 +2004,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.494066882416397,
-          "y": 0.5034642032332564,
+          "x": 0.41801510248112195,
+          "y": 0.4942263279445727,
           "uniqueID": "id-6554",
           "ioValues": [
             {
@@ -2025,8 +2028,8 @@
         },
         {
           "atomType": "Tag",
-          "x": 0.5690399137001079,
-          "y": 0.4942263279445727,
+          "x": 0.4962243797195253,
+          "y": 0.4849884526558892,
           "uniqueID": "id-6561",
           "name": "Edge",
           "ioValues": [
