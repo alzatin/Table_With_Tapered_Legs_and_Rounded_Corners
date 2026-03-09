@@ -716,11 +716,13 @@
             },
             {
               "name": "yDist",
-              "ioValue": null
+              "ioValue": 53.05923163679253,
+              "currentEquation": "(LegWidth - sqrt(2) * WoodThick)"
             },
             {
               "name": "zDist",
-              "ioValue": 0
+              "ioValue": 19.05,
+              "currentEquation": "WoodThick"
             }
           ]
         },
@@ -760,21 +762,13 @@
             {
               "name": "Shape 1",
               "ioValue": null
-            },
-            {
-              "name": "Shape 2",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 3",
-              "ioValue": null
             }
           ]
         },
         {
           "atomType": "Assembly",
-          "x": 0.3683926645091694,
-          "y": 0.8013856812933026,
+          "x": 0.37594390507011866,
+          "y": 0.7228637413394918,
           "uniqueID": "id-5515",
           "ioValues": [
             {
@@ -789,8 +783,8 @@
         },
         {
           "atomType": "Rotate",
-          "x": 0.4568500539374326,
-          "y": 0.789838337182448,
+          "x": 0.37702265372168287,
+          "y": 0.8660508083140878,
           "uniqueID": "id-5520",
           "ioValues": [
             {
@@ -834,6 +828,22 @@
               "name": "zDist",
               "ioValue": -7.0710678118654755,
               "currentEquation": "- (ScrewHead * sqrt(2))/2"
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.4627831715210356,
+          "y": 0.7944572748267898,
+          "uniqueID": "id-5537",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
             }
           ]
         }
@@ -965,14 +975,14 @@
           "ap2ID": "id-5520"
         },
         {
-          "ap2Name": "Shape 3",
+          "ap2Name": "Shape 2",
           "ap1ID": "id-5515",
-          "ap2ID": "id-5511"
+          "ap2ID": "id-5537"
         },
         {
-          "ap2Name": "Shape 2",
+          "ap2Name": "Shape 1",
           "ap1ID": "id-5520",
-          "ap2ID": "id-5511"
+          "ap2ID": "id-5537"
         },
         {
           "ap2Name": "geometry",
