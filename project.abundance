@@ -940,7 +940,17 @@
           "atomType": "Rectangle",
           "x": 0.12837108953613807,
           "y": 0.8752886836027713,
-          "uniqueID": "id-5383"
+          "uniqueID": "id-5383",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 8.485281374238571
+            },
+            {
+              "name": "y length",
+              "ioValue": 8.485281374238571
+            }
+          ]
         },
         {
           "atomType": "Extrude",
@@ -951,6 +961,10 @@
             {
               "name": "geometry",
               "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 8.485281374238571
             }
           ]
         },
@@ -960,6 +974,12 @@
           "y": 0.8568129330254042,
           "uniqueID": "id-5494",
           "name": "SH * sqrt(2)",
+          "ioValues": [
+            {
+              "name": "SH",
+              "ioValue": 6
+            }
+          ],
           "currentEquation": "SH * sqrt(2)"
         },
         {
@@ -2470,11 +2490,25 @@
       "ap1ID": "id-6003",
       "ap2ID": "id-5258"
     },
-    null,
+    {
+      "ap2Name": "NutWidth",
+      "ap1ID": "id-6006",
+      "ap2ID": "id-5258"
+    },
+    {
+      "ap2Name": "NutThick",
+      "ap1ID": "id-6009",
+      "ap2ID": "id-5258"
+    },
     {
       "ap2Name": "ScrewHead",
       "ap1ID": "id-6034",
       "ap2ID": "id-6012"
+    },
+    {
+      "ap2Name": "ScrewHead",
+      "ap1ID": "id-6034",
+      "ap2ID": "id-5258"
     },
     {
       "ap2Name": "geometry",
