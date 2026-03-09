@@ -1312,11 +1312,6 @@
           "ap2ID": "id-5591"
         },
         {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-5591",
-          "ap2ID": "id-5260"
-        },
-        {
           "ap2Name": "geometry",
           "ap1ID": "id-5591",
           "ap2ID": "id-5798"
@@ -1325,6 +1320,11 @@
           "ap2Name": "geometry",
           "ap1ID": "id-5798",
           "ap2ID": "id-5804"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-5804",
+          "ap2ID": "id-5260"
         }
       ],
       "fileTypeVersion": 1
