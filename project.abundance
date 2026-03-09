@@ -567,21 +567,21 @@
         },
         {
           "atomType": "Input",
-          "x": 0.0231,
+          "x": 0.01815,
           "y": 0.14,
           "uniqueID": "id-5265",
           "name": "WoodThick"
         },
         {
           "atomType": "Input",
-          "x": 0.0231,
+          "x": 0.01815,
           "y": 0.22400000000000003,
           "uniqueID": "id-5268",
           "name": "TopHeight"
         },
         {
           "atomType": "Input",
-          "x": 0.0231,
+          "x": 0.01815,
           "y": 0.30800000000000005,
           "uniqueID": "id-5271",
           "name": "LegWidth"
@@ -604,7 +604,7 @@
         },
         {
           "atomType": "Input",
-          "x": 0.0231,
+          "x": 0.01815,
           "y": 0.39200000000000007,
           "uniqueID": "id-5299",
           "name": "EdgeHeight"
@@ -806,21 +806,21 @@
         },
         {
           "atomType": "Input",
-          "x": 0.0231,
+          "x": 0.01815,
           "y": 0.4760000000000001,
           "uniqueID": "id-5340",
           "name": "BoltDiameter"
         },
         {
           "atomType": "Input",
-          "x": 0.0231,
+          "x": 0.01815,
           "y": 0.56,
           "uniqueID": "id-5343",
           "name": "NutWidth"
         },
         {
           "atomType": "Input",
-          "x": 0.0231,
+          "x": 0.01815,
           "y": 0.644,
           "uniqueID": "id-5346",
           "name": "NutThick"
@@ -937,7 +937,17 @@
           "atomType": "Rectangle",
           "x": 0.12837108953613807,
           "y": 0.8752886836027713,
-          "uniqueID": "id-5383"
+          "uniqueID": "id-5383",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 7.0710678118654755
+            },
+            {
+              "name": "y length",
+              "ioValue": 7.0710678118654755
+            }
+          ]
         },
         {
           "atomType": "Extrude",
@@ -948,6 +958,10 @@
             {
               "name": "geometry",
               "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 7.0710678118654755
             }
           ]
         },
@@ -957,6 +971,12 @@
           "y": 0.8568129330254042,
           "uniqueID": "id-5494",
           "name": "SH * sqrt(2)",
+          "ioValues": [
+            {
+              "name": "SH",
+              "ioValue": 5
+            }
+          ],
           "currentEquation": "SH * sqrt(2)"
         },
         {
@@ -1357,7 +1377,7 @@
         },
         {
           "atomType": "Input",
-          "x": 0.0231,
+          "x": 0.01815,
           "y": 0.728,
           "uniqueID": "id-6043",
           "name": "ScrewHead"
