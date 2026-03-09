@@ -15,8 +15,7 @@
     },
     {
       "name": "TableWidth",
-      "ioValue": 2000,
-      "currentEquation": "2000"
+      "ioValue": 4000
     },
     {
       "name": "TopHeight",
@@ -1408,7 +1407,7 @@
         },
         {
           "name": "TableWidth",
-          "ioValue": 2000,
+          "ioValue": 4000,
           "currentEquation": "TableWidth"
         },
         {
@@ -1525,7 +1524,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 1000,
+              "ioValue": 2000,
               "currentEquation": "TableWidth/2"
             },
             {
@@ -1551,7 +1550,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": -1000,
+              "ioValue": -2000,
               "currentEquation": "-TableWidth/2"
             },
             {
@@ -1577,7 +1576,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 1000,
+              "ioValue": 2000,
               "currentEquation": "TableWidth/2"
             },
             {
@@ -1603,7 +1602,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": -1000,
+              "ioValue": -2000,
               "currentEquation": "-TableWidth/2"
             },
             {
@@ -1647,7 +1646,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-circle-20-1000-500-0",
+                "geometry": "move-circle-20-2000-500-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -1674,7 +1673,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-circle-20--1000-500-0",
+                "geometry": "move-circle-20--2000-500-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -1701,7 +1700,7 @@
             {
               "name": "Shape 3",
               "ioValue": {
-                "geometry": "move-circle-20-1000--500-0",
+                "geometry": "move-circle-20-2000--500-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -1728,7 +1727,7 @@
             {
               "name": "Shape 4",
               "ioValue": {
-                "geometry": "move-circle-20--1000--500-0",
+                "geometry": "move-circle-20--2000--500-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -1822,7 +1821,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 950.475,
+              "ioValue": 1950.475,
               "currentEquation": "TableWidth/2 - WoodThick/2 - EdgeLip"
             },
             {
@@ -1848,7 +1847,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": -950.475,
+              "ioValue": -1950.475,
               "currentEquation": "-(TableWidth/2 - WoodThick/2 -EdgeLip)"
             },
             {
@@ -1870,7 +1869,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 1866.1184632735851,
+              "ioValue": 3866.118463273585,
               "currentEquation": "TableWidth  - 2 * EdgeLip - 2*sqrt(2) *WoodThick"
             },
             {
@@ -2196,7 +2195,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": -960,
+          "ioValue": -1960,
           "currentEquation": "-TableWidth/2 + EdgeLip"
         },
         {
@@ -2247,7 +2246,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 960,
+          "ioValue": 1960,
           "currentEquation": "TableWidth/2 - EdgeLip"
         },
         {
@@ -2298,7 +2297,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": -960,
+          "ioValue": -1960,
           "currentEquation": "-(TableWidth/2 - EdgeLip)"
         },
         {
@@ -2349,7 +2348,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 960,
+          "ioValue": 1960,
           "currentEquation": "TableWidth/2 - EdgeLip"
         },
         {
