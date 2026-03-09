@@ -2194,15 +2194,70 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": -1540,
+          "currentEquation": "-TableWidth/2 -EdgeLip"
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 2460,
+          "currentEquation": "TableLength/2 -EdgeLip"
         },
         {
           "name": "zDist",
+          "ioValue": 880.95,
+          "currentEquation": "TopHeight - WoodThick"
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.37378640776699035,
+      "y": 0.6928406466512702,
+      "uniqueID": "id-6491",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
           "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 270,
+          "currentEquation": "270"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.3732470334412082,
+      "y": 0.859122401847575,
+      "uniqueID": "id-6497",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 1500,
+          "currentEquation": "TableWidth/2"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 2500,
+          "currentEquation": "TableLength/2"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 880.95,
+          "currentEquation": "TopHeight - WoodThick"
         }
       ]
     }
@@ -2244,9 +2299,19 @@
       "ap2ID": "id-6479"
     },
     {
+      "ap2Name": "geometry",
+      "ap1ID": "id-5258",
+      "ap2ID": "id-6491"
+    },
+    {
       "ap2Name": "Shape 1",
       "ap1ID": "id-6012",
       "ap2ID": "id-6169"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-6491",
+      "ap2ID": "id-6497"
     }
   ],
   "unitsKey": "MM",
