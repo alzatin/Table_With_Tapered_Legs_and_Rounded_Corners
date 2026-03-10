@@ -1948,7 +1948,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 10
+              "ioValue": 346.11846327358506
             },
             {
               "name": "y length",
@@ -1968,7 +1968,7 @@
             },
             {
               "name": "height",
-              "ioValue": 10
+              "ioValue": 90
             }
           ]
         },
@@ -2287,6 +2287,24 @@
           "x": 0.2233009708737864,
           "y": 0.489607390300231,
           "uniqueID": "id-7684",
+          "name": "TW - 2*sqrt(2)*WT",
+          "ioValues": [
+            {
+              "name": "TW",
+              "ioValue": 400
+            },
+            {
+              "name": "WT",
+              "ioValue": 19.05
+            }
+          ],
+          "currentEquation": "TW - 2*sqrt(2)*WT"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.27939590075512405,
+          "y": 0.4988452655889145,
+          "uniqueID": "id-7688",
           "name": "x + y",
           "ioValues": [
             {
@@ -2302,33 +2320,49 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.21952535059331177,
-          "y": 0.8498845265588915,
-          "uniqueID": "id-7688",
-          "name": "x + y",
+          "x": 0.2184466019417476,
+          "y": 0.8452655889145496,
+          "uniqueID": "id-7694",
+          "name": "TL - 2*sqrt(2)*WT",
           "ioValues": [
             {
-              "name": "x",
-              "ioValue": 1
+              "name": "WT",
+              "ioValue": 1,
+              "currentEquation": "1"
             },
             {
-              "name": "y",
+              "name": "TL",
               "ioValue": 1
             }
           ],
-          "currentEquation": "x + y"
+          "currentEquation": "TL - 2*sqrt(2)*WT"
         }
       ],
       "allConnectors": [
+        {
+          "ap2Name": "WT",
+          "ap1ID": "id-6016",
+          "ap2ID": "id-7684"
+        },
         {
           "ap2Name": "TW",
           "ap1ID": "id-6019",
           "ap2ID": "id-7294"
         },
         {
+          "ap2Name": "TW",
+          "ap1ID": "id-6019",
+          "ap2ID": "id-7684"
+        },
+        {
           "ap2Name": "TL",
           "ap1ID": "id-6022",
           "ap2ID": "id-7309"
+        },
+        {
+          "ap2Name": "height",
+          "ap1ID": "id-6025",
+          "ap2ID": "id-6113"
         },
         {
           "ap2Name": "CR",
@@ -2524,6 +2558,11 @@
           "ap2Name": "yDist",
           "ap1ID": "id-7314",
           "ap2ID": "id-6088"
+        },
+        {
+          "ap2Name": "x length",
+          "ap1ID": "id-7684",
+          "ap2ID": "id-6109"
         }
       ],
       "fileTypeVersion": 1
