@@ -19,7 +19,8 @@
     },
     {
       "name": "TopHeight",
-      "ioValue": 700
+      "ioValue": 700,
+      "currentEquation": "700"
     },
     {
       "name": "EdgeLip",
