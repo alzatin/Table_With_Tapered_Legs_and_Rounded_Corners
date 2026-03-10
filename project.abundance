@@ -1138,12 +1138,13 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 12,
-              "currentEquation": "NutWidth"
+              "ioValue": 6,
+              "currentEquation": "NutThick"
             },
             {
               "name": "y length",
-              "ioValue": 10
+              "ioValue": 12,
+              "currentEquation": "NutWidth"
             }
           ]
         },
@@ -1159,7 +1160,8 @@
             },
             {
               "name": "height",
-              "ioValue": 10
+              "ioValue": 48.46410161513776,
+              "currentEquation": ".5 * EdgeHeight + NutWidth/(2*sqrt(3))"
             }
           ]
         },
