@@ -903,7 +903,8 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 45,
+              "currentEquation": ".5* EdgeHeight"
             },
             {
               "name": "zDist",
@@ -993,12 +994,13 @@
             },
             {
               "name": "xDist",
-              "ioValue": 92.10923163679253,
-              "currentEquation": "WoodThick + LegWidth - sqrt(2) * WoodThick"
+              "ioValue": 73.05923163679253,
+              "currentEquation": "LegWidth - sqrt(2) * WoodThick"
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "zDist",
@@ -1018,7 +1020,8 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": -73.05923163679253,
+              "currentEquation": "-(LegWidth - sqrt(2) * WoodThick)"
             },
             {
               "name": "yDist",
@@ -1619,6 +1622,11 @@
           "ap2ID": "id-5591"
         },
         {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-5335",
+          "ap2ID": "id-5260"
+        },
+        {
           "ap2Name": "diameter",
           "ap1ID": "id-5340",
           "ap2ID": "id-5357"
@@ -1722,11 +1730,6 @@
           "ap2Name": "geometry",
           "ap1ID": "id-5542",
           "ap2ID": "id-5368"
-        },
-        {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-5542",
-          "ap2ID": "id-5260"
         },
         {
           "ap2Name": "geometry",
