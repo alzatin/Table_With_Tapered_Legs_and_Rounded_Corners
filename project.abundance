@@ -1138,7 +1138,8 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 10
+              "ioValue": 12,
+              "currentEquation": "NutWidth"
             },
             {
               "name": "y length",
@@ -1218,11 +1219,13 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 10
+              "ioValue": 6,
+              "currentEquation": "BoltDiameter"
             },
             {
               "name": "y length",
-              "ioValue": 10
+              "ioValue": 6,
+              "currentEquation": "BoltDiameter"
             }
           ]
         },
@@ -1238,7 +1241,8 @@
             },
             {
               "name": "height",
-              "ioValue": 10
+              "ioValue": 80.95,
+              "currentEquation": "LegWidth - WoodThick"
             }
           ]
         },
@@ -1282,7 +1286,8 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 45,
+              "currentEquation": ".5 * EdgeHeight"
             },
             {
               "name": "zDist",
@@ -1777,14 +1782,14 @@
           "ap2ID": "id-5798"
         },
         {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-5591",
+          "ap2ID": "id-5260"
+        },
+        {
           "ap2Name": "geometry",
           "ap1ID": "id-5798",
           "ap2ID": "id-5804"
-        },
-        {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-5804",
-          "ap2ID": "id-5260"
         },
         {
           "ap2Name": "SH",
