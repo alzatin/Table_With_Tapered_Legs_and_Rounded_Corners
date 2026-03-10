@@ -36,7 +36,8 @@
     },
     {
       "name": "CornerRound",
-      "ioValue": 70
+      "ioValue": 70,
+      "currentEquation": "70"
     },
     {
       "name": "BoltDiameter",
@@ -1959,13 +1960,13 @@
         },
         {
           "atomType": "Circle",
-          "x": 0.15372168284789645,
-          "y": 0.3394919168591224,
+          "x": 0.15156418554476808,
+          "y": 0.3510392609699769,
           "uniqueID": "id-6040",
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 35
+              "ioValue": 140
             }
           ]
         },
@@ -2095,7 +2096,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-circle-17.5-482.5-382.5-0",
+                "geometry": "move-circle-70-482.5-382.5-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -2122,7 +2123,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-circle-17.5-482.5--382.5-0",
+                "geometry": "move-circle-70-482.5--382.5-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -2149,7 +2150,7 @@
             {
               "name": "Shape 3",
               "ioValue": {
-                "geometry": "move-circle-17.5--482.5-382.5-0",
+                "geometry": "move-circle-70--482.5-382.5-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -2176,7 +2177,7 @@
             {
               "name": "Shape 4",
               "ioValue": {
-                "geometry": "move-circle-17.5--482.5--382.5-0",
+                "geometry": "move-circle-70--482.5--382.5-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -2506,17 +2507,17 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.09978425026968717,
-          "y": 0.3348729792147806,
+          "x": 0.09870550161812297,
+          "y": 0.34411085450346424,
           "uniqueID": "id-7300",
-          "name": ".5 * CR",
+          "name": "2* CR",
           "ioValues": [
             {
               "name": "CR",
               "ioValue": 70
             }
           ],
-          "currentEquation": ".5 * CR"
+          "currentEquation": "2* CR"
         },
         {
           "atomType": "Equation",
