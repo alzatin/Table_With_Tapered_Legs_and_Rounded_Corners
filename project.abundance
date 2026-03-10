@@ -1948,7 +1948,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 346.11846327358506
+              "ioValue": 286.11846327358506
             },
             {
               "name": "y length",
@@ -2022,17 +2022,17 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.21790722761596548,
-          "y": 0.7020785219399538,
+          "x": 0.2173678532901834,
+          "y": 0.6605080831408776,
           "uniqueID": "id-6135",
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 10
+              "ioValue": 19.05
             },
             {
               "name": "y length",
-              "ioValue": 10
+              "ioValue": 686.1184632735851
             }
           ]
         },
@@ -2048,7 +2048,7 @@
             },
             {
               "name": "height",
-              "ioValue": 10
+              "ioValue": 90
             }
           ]
         },
@@ -2284,10 +2284,10 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.2173678532901834,
-          "y": 0.45727482678983833,
+          "x": 0.21197411003236247,
+          "y": 0.5057736720554272,
           "uniqueID": "id-7684",
-          "name": "TW - 2* sqrt(2) *WT",
+          "name": "TW - 2* sqrt(2) *WT - 2*EL",
           "ioValues": [
             {
               "name": "TW",
@@ -2296,9 +2296,13 @@
             {
               "name": "WT",
               "ioValue": 19.05
+            },
+            {
+              "name": "EL",
+              "ioValue": 30
             }
           ],
-          "currentEquation": "TW - 2* sqrt(2) *WT"
+          "currentEquation": "TW - 2* sqrt(2) *WT - 2*EL"
         },
         {
           "atomType": "Equation",
@@ -2324,22 +2328,26 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.2184466019417476,
-          "y": 0.8452655889145496,
+          "x": 0.21143473570658036,
+          "y": 0.815242494226328,
           "uniqueID": "id-7694",
-          "name": "TL - 2*sqrt(2)*WT",
+          "name": "TL - 2*sqrt(2)*WT - 2*EL",
           "ioValues": [
             {
               "name": "WT",
-              "ioValue": 1,
+              "ioValue": 19.05,
               "currentEquation": "1"
             },
             {
               "name": "TL",
-              "ioValue": 1
+              "ioValue": 800
+            },
+            {
+              "name": "EL",
+              "ioValue": 30
             }
           ],
-          "currentEquation": "TL - 2*sqrt(2)*WT"
+          "currentEquation": "TL - 2*sqrt(2)*WT - 2*EL"
         },
         {
           "atomType": "Equation",
@@ -2395,6 +2403,16 @@
           "ap2ID": "id-7702"
         },
         {
+          "ap2Name": "WT",
+          "ap1ID": "id-6016",
+          "ap2ID": "id-7694"
+        },
+        {
+          "ap2Name": "x length",
+          "ap1ID": "id-6016",
+          "ap2ID": "id-6135"
+        },
+        {
           "ap2Name": "TW",
           "ap1ID": "id-6019",
           "ap2ID": "id-7294"
@@ -2420,9 +2438,19 @@
           "ap2ID": "id-7702"
         },
         {
+          "ap2Name": "TL",
+          "ap1ID": "id-6022",
+          "ap2ID": "id-7694"
+        },
+        {
           "ap2Name": "height",
           "ap1ID": "id-6025",
           "ap2ID": "id-6113"
+        },
+        {
+          "ap2Name": "height",
+          "ap1ID": "id-6025",
+          "ap2ID": "id-6139"
         },
         {
           "ap2Name": "EL",
@@ -2433,6 +2461,16 @@
           "ap2Name": "EL",
           "ap1ID": "id-6031",
           "ap2ID": "id-7702"
+        },
+        {
+          "ap2Name": "EL",
+          "ap1ID": "id-6031",
+          "ap2ID": "id-7684"
+        },
+        {
+          "ap2Name": "EL",
+          "ap1ID": "id-6031",
+          "ap2ID": "id-7694"
         },
         {
           "ap2Name": "CR",
@@ -2643,6 +2681,11 @@
           "ap2Name": "y",
           "ap1ID": "id-7688",
           "ap2ID": "id-7707"
+        },
+        {
+          "ap2Name": "y length",
+          "ap1ID": "id-7694",
+          "ap2ID": "id-6135"
         },
         {
           "ap2Name": "yDist",
