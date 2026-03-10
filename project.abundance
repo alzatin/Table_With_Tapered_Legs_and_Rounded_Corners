@@ -1952,7 +1952,7 @@
             },
             {
               "name": "y length",
-              "ioValue": 10
+              "ioValue": 19.05
             }
           ]
         },
@@ -2038,8 +2038,8 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.26537216828478966,
-          "y": 0.6882217090069285,
+          "x": 0.2696871628910464,
+          "y": 0.6836027713625865,
           "uniqueID": "id-6139",
           "ioValues": [
             {
@@ -2064,7 +2064,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": 160.475
             },
             {
               "name": "yDist",
@@ -2088,7 +2088,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": -160.475
             },
             {
               "name": "yDist",
@@ -2328,8 +2328,8 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.21574973031283712,
-          "y": 0.7990762124711317,
+          "x": 0.2189859762675297,
+          "y": 0.7852193995381063,
           "uniqueID": "id-7694",
           "name": "TL - 2*sqrt(2)*WT - 2*EL",
           "ioValues": [
@@ -2351,28 +2351,6 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.5009169363538296,
-          "y": 0.670554272517321,
-          "uniqueID": "id-7702",
-          "name": ".5 * TL - EL -.5*WT",
-          "ioValues": [
-            {
-              "name": "TL",
-              "ioValue": 800
-            },
-            {
-              "name": "EL",
-              "ioValue": 30
-            },
-            {
-              "name": "WT",
-              "ioValue": 19.05
-            }
-          ],
-          "currentEquation": ".5 * TL - EL -.5*WT"
-        },
-        {
-          "atomType": "Equation",
           "x": 0.2691477885652643,
           "y": 0.5496535796766744,
           "uniqueID": "id-7707",
@@ -2384,6 +2362,42 @@
             }
           ],
           "currentEquation": "-y"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.2696871628910464,
+          "y": 0.8083140877598153,
+          "uniqueID": "id-7713",
+          "name": ".5 * TW - EL -.5*WT",
+          "ioValues": [
+            {
+              "name": "EL",
+              "ioValue": 30
+            },
+            {
+              "name": "WT",
+              "ioValue": 19.05
+            },
+            {
+              "name": "TW",
+              "ioValue": 400
+            }
+          ],
+          "currentEquation": ".5 * TW - EL -.5*WT"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.2707659115426106,
+          "y": 0.9237875288683602,
+          "uniqueID": "id-7719",
+          "name": "-x",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 160.475
+            }
+          ],
+          "currentEquation": "-x"
         }
       ],
       "allConnectors": [
@@ -2400,17 +2414,22 @@
         {
           "ap2Name": "WT",
           "ap1ID": "id-6016",
-          "ap2ID": "id-7702"
-        },
-        {
-          "ap2Name": "WT",
-          "ap1ID": "id-6016",
           "ap2ID": "id-7694"
         },
         {
           "ap2Name": "x length",
           "ap1ID": "id-6016",
           "ap2ID": "id-6135"
+        },
+        {
+          "ap2Name": "WT",
+          "ap1ID": "id-6016",
+          "ap2ID": "id-7713"
+        },
+        {
+          "ap2Name": "y length",
+          "ap1ID": "id-6016",
+          "ap2ID": "id-6109"
         },
         {
           "ap2Name": "TW",
@@ -2423,6 +2442,11 @@
           "ap2ID": "id-7684"
         },
         {
+          "ap2Name": "TW",
+          "ap1ID": "id-6019",
+          "ap2ID": "id-7713"
+        },
+        {
           "ap2Name": "TL",
           "ap1ID": "id-6022",
           "ap2ID": "id-7309"
@@ -2431,11 +2455,6 @@
           "ap2Name": "TL",
           "ap1ID": "id-6022",
           "ap2ID": "id-7688"
-        },
-        {
-          "ap2Name": "TL",
-          "ap1ID": "id-6022",
-          "ap2ID": "id-7702"
         },
         {
           "ap2Name": "TL",
@@ -2460,17 +2479,17 @@
         {
           "ap2Name": "EL",
           "ap1ID": "id-6031",
-          "ap2ID": "id-7702"
-        },
-        {
-          "ap2Name": "EL",
-          "ap1ID": "id-6031",
           "ap2ID": "id-7684"
         },
         {
           "ap2Name": "EL",
           "ap1ID": "id-6031",
           "ap2ID": "id-7694"
+        },
+        {
+          "ap2Name": "EL",
+          "ap1ID": "id-6031",
+          "ap2ID": "id-7713"
         },
         {
           "ap2Name": "CR",
@@ -2691,6 +2710,21 @@
           "ap2Name": "yDist",
           "ap1ID": "id-7707",
           "ap2ID": "id-6123"
+        },
+        {
+          "ap2Name": "xDist",
+          "ap1ID": "id-7713",
+          "ap2ID": "id-6143"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-7713",
+          "ap2ID": "id-7719"
+        },
+        {
+          "ap2Name": "xDist",
+          "ap1ID": "id-7719",
+          "ap2ID": "id-6149"
         }
       ],
       "fileTypeVersion": 1
