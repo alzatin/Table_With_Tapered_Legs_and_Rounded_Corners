@@ -70,84 +70,84 @@
     },
     {
       "atomType": "Input",
-      "x": 0.0165,
+      "x": 0.025384615384615384,
       "y": 0.15384615384615385,
       "uniqueID": "id-5199",
       "name": "WoodThick"
     },
     {
       "atomType": "Input",
-      "x": 0.0165,
+      "x": 0.025384615384615384,
       "y": 0.24615384615384617,
       "uniqueID": "id-5202",
       "name": "TableLength"
     },
     {
       "atomType": "Input",
-      "x": 0.0165,
+      "x": 0.025384615384615384,
       "y": 0.3384615384615385,
       "uniqueID": "id-5205",
       "name": "TableWidth"
     },
     {
       "atomType": "Input",
-      "x": 0.0165,
+      "x": 0.025384615384615384,
       "y": 0.4307692307692308,
       "uniqueID": "id-5214",
       "name": "TopHeight"
     },
     {
       "atomType": "Input",
-      "x": 0.0165,
+      "x": 0.025384615384615384,
       "y": 0.5230769230769231,
       "uniqueID": "id-5221",
       "name": "EdgeLip"
     },
     {
       "atomType": "Input",
-      "x": 0.0165,
+      "x": 0.025384615384615384,
       "y": 0.6153846153846154,
       "uniqueID": "id-5237",
       "name": "LegWidth"
     },
     {
       "atomType": "Input",
-      "x": 0.0165,
+      "x": 0.025384615384615384,
       "y": 0.7076923076923077,
       "uniqueID": "id-5274",
       "name": "EdgeHeight"
     },
     {
       "atomType": "Input",
-      "x": 0.0165,
+      "x": 0.025384615384615384,
       "y": 0.8,
       "uniqueID": "id-6000",
       "name": "CornerRound"
     },
     {
       "atomType": "Input",
-      "x": 0.0165,
+      "x": 0.025384615384615384,
       "y": 0.8923076923076924,
       "uniqueID": "id-6003",
       "name": "BoltDiameter"
     },
     {
       "atomType": "Input",
-      "x": 0.0165,
+      "x": 0.025384615384615384,
       "y": 0.95,
       "uniqueID": "id-6006",
       "name": "NutWidth"
     },
     {
       "atomType": "Input",
-      "x": 0.0165,
+      "x": 0.025384615384615384,
       "y": 0.95,
       "uniqueID": "id-6009",
       "name": "NutThick"
     },
     {
       "atomType": "Input",
-      "x": 0.0165,
+      "x": 0.025384615384615384,
       "y": 0.95,
       "uniqueID": "id-6034",
       "name": "ScrewHead"
@@ -164,10 +164,6 @@
         },
         {
           "name": "Shape 2",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 3",
           "ioValue": null
         }
       ]
@@ -1270,7 +1266,7 @@
             },
             {
               "name": "Shape 3",
-              "ioValue": null
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
         },
@@ -1383,11 +1379,11 @@
           "uniqueID": "id-5360",
           "ioValues": [
             {
-              "name": "geometry1",
+              "name": "retain",
               "ioValue": "__GEOMETRY_INPUT__"
             },
             {
-              "name": "geometry2",
+              "name": "remove",
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
@@ -1643,11 +1639,11 @@
           "uniqueID": "id-5542",
           "ioValues": [
             {
-              "name": "geometry1",
+              "name": "retain",
               "ioValue": "__GEOMETRY_INPUT__"
             },
             {
-              "name": "geometry2",
+              "name": "remove",
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
@@ -1656,7 +1652,17 @@
           "atomType": "Rectangle",
           "x": 0.5544768069039914,
           "y": 0.9076212471131639,
-          "uniqueID": "id-5546"
+          "uniqueID": "id-5546",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 10
+            },
+            {
+              "name": "y length",
+              "ioValue": 10
+            }
+          ]
         },
         {
           "atomType": "Extrude",
@@ -1667,6 +1673,10 @@
             {
               "name": "geometry",
               "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 10
             }
           ]
         },
@@ -1826,11 +1836,11 @@
           "uniqueID": "id-5591",
           "ioValues": [
             {
-              "name": "geometry1",
+              "name": "retain",
               "ioValue": "__GEOMETRY_INPUT__"
             },
             {
-              "name": "geometry2",
+              "name": "remove",
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
@@ -2130,7 +2140,7 @@
           "ap2ID": "id-6530"
         },
         {
-          "ap2Name": "geometry1",
+          "ap2Name": "retain",
           "ap1ID": "id-5335",
           "ap2ID": "id-5591"
         },
@@ -2140,12 +2150,12 @@
           "ap2ID": "id-5357"
         },
         {
-          "ap2Name": "geometry1",
+          "ap2Name": "retain",
           "ap1ID": "id-5349",
           "ap2ID": "id-5360"
         },
         {
-          "ap2Name": "geometry2",
+          "ap2Name": "remove",
           "ap1ID": "id-5357",
           "ap2ID": "id-5360"
         },
@@ -2155,7 +2165,7 @@
           "ap2ID": "id-5364"
         },
         {
-          "ap2Name": "geometry1",
+          "ap2Name": "retain",
           "ap1ID": "id-5364",
           "ap2ID": "id-5542"
         },
@@ -2230,7 +2240,7 @@
           "ap2ID": "id-5505"
         },
         {
-          "ap2Name": "geometry2",
+          "ap2Name": "remove",
           "ap1ID": "id-5537",
           "ap2ID": "id-5542"
         },
@@ -2280,7 +2290,7 @@
           "ap2ID": "id-5586"
         },
         {
-          "ap2Name": "geometry2",
+          "ap2Name": "remove",
           "ap1ID": "id-5586",
           "ap2ID": "id-5591"
         },
@@ -2354,8 +2364,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.13969795037756202,
-      "y": 0.2817551963048499,
+      "x": 0.22408963585434172,
+      "y": 0.25609756097560976,
       "uniqueID": "id-6012",
       "name": "TableTop",
       "ioValues": [
@@ -2703,7 +2713,7 @@
             },
             {
               "name": "Shape 5",
-              "ioValue": null
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
         },
@@ -3706,11 +3716,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-6536",
       "ap2ID": "id-6546"
-    },
-    {
-      "ap2Name": "Shape 3",
-      "ap1ID": "id-6543",
-      "ap2ID": "id-6169"
     },
     {
       "ap2Name": "value",
