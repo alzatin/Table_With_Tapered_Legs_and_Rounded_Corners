@@ -6,18 +6,18 @@
 
 ## Inputs
 
-- **WoodThick** (number)
 - **TableLength** (number)
-- **TableWidth** (number)
 - **TopHeight** (number)
-- **EdgeLip** (number)
 - **LegWidth** (number)
-- **EdgeHeight** (number)
 - **CornerRound** (number)
-- **BoltDiameter** (number)
 - **NutWidth** (number)
-- **NutThick** (number)
 - **ScrewHead** (number)
+- **WoodThick** (number)
+- **TableWidth** (number)
+- **EdgeLip** (number)
+- **EdgeHeight** (number)
+- **BoltDiameter** (number)
+- **NutThick** (number)
 
 
 
@@ -26,13 +26,13 @@
 You will need 4 bolts, washers and 4 nuts. Enter the size of these into the parameters. The nut should be hexagonal and measured across 2 opposite parallel faces. The nut will drop into the hole on top of the leg and the bolt will slide through the brace and then into it. 
 You will probably need to use a compound miter saw to trim the corners of the edges and braces.  
 
-![readme](/readmeid-6569.svg?v=n8wjgq7)
+![readme](/readmeid-6569.svg?v=nnhiqoe)
 
 
 
 Readme text here 
 
-![readme](/readmeid-9898.svg?v=nw3yyuz)
+![readme](/readmeid-9898.svg?v=nrzxq98)
 
 
 
