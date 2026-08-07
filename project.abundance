@@ -6,51 +6,51 @@
   "name": "Table_With_Tapered_Legs_and_Rounded_Corners",
   "ioValues": [
     {
-      "name": "WoodThick",
-      "ioValue": 19.05
-    },
-    {
       "name": "TableLength",
       "ioValue": 800
-    },
-    {
-      "name": "TableWidth",
-      "ioValue": 1000
     },
     {
       "name": "TopHeight",
       "ioValue": 700
     },
     {
-      "name": "EdgeLip",
-      "ioValue": 30
-    },
-    {
       "name": "LegWidth",
       "ioValue": 100
-    },
-    {
-      "name": "EdgeHeight",
-      "ioValue": 90
     },
     {
       "name": "CornerRound",
       "ioValue": 60
     },
     {
-      "name": "BoltDiameter",
-      "ioValue": 6
-    },
-    {
       "name": "NutWidth",
       "ioValue": 12
     },
     {
-      "name": "NutThick",
+      "name": "ScrewHead",
       "ioValue": 6
     },
     {
-      "name": "ScrewHead",
+      "name": "WoodThick",
+      "ioValue": 19.05
+    },
+    {
+      "name": "TableWidth",
+      "ioValue": 1000
+    },
+    {
+      "name": "EdgeLip",
+      "ioValue": 30
+    },
+    {
+      "name": "EdgeHeight",
+      "ioValue": 90
+    },
+    {
+      "name": "BoltDiameter",
+      "ioValue": 6
+    },
+    {
+      "name": "NutThick",
       "ioValue": 6
     }
   ],
@@ -164,6 +164,10 @@
         },
         {
           "name": "Shape 2",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 3",
           "ioValue": null
         }
       ]
@@ -406,7 +410,12 @@
         }
       ],
       "tag": "Leg",
-      "tagIndex": 0
+      "tagIndex": 0,
+      "selectedTags": [
+        "Leg"
+      ],
+      "includeUntagged": false,
+      "notKeepOut": false
     },
     {
       "atomType": "ExtractTag",
@@ -421,7 +430,12 @@
         }
       ],
       "tag": "Brace",
-      "tagIndex": 0
+      "tagIndex": 0,
+      "selectedTags": [
+        "Brace"
+      ],
+      "includeUntagged": false,
+      "notKeepOut": false
     },
     {
       "atomType": "Tag",
@@ -2364,8 +2378,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.22408963585434172,
-      "y": 0.25609756097560976,
+      "x": 0.13969795037756202,
+      "y": 0.2817551963048499,
       "uniqueID": "id-6012",
       "name": "TableTop",
       "ioValues": [
@@ -3716,6 +3730,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-6536",
       "ap2ID": "id-6546"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-6543",
+      "ap2ID": "id-6169"
     },
     {
       "ap2Name": "value",
