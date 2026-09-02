@@ -2,22 +2,22 @@
 
 # Table_With_Tapered_Legs_and_Rounded_Corners
 
-![](/project.svg)
+![](/project.png)
 
 ## Inputs
 
-- **TableLength** (number)
-- **TopHeight** (number)
-- **LegWidth** (number)
-- **CornerRound** (number)
-- **NutWidth** (number)
-- **ScrewHead** (number)
 - **WoodThick** (number)
+- **TableLength** (number)
 - **TableWidth** (number)
+- **TopHeight** (number)
 - **EdgeLip** (number)
+- **LegWidth** (number)
 - **EdgeHeight** (number)
+- **CornerRound** (number)
 - **BoltDiameter** (number)
+- **NutWidth** (number)
 - **NutThick** (number)
+- **ScrewHead** (number)
 
 
 
@@ -26,19 +26,19 @@
 You will need 4 bolts, washers and 4 nuts. Enter the size of these into the parameters. The nut should be hexagonal and measured across 2 opposite parallel faces. The nut will drop into the hole on top of the leg and the bolt will slide through the brace and then into it. 
 You will probably need to use a compound miter saw to trim the corners of the edges and braces.  
 
-![readme](/readmeid-6569.svg?v=nnhiqoe)
+![readme](/readmeid-6569.svg?v=cwmqll)
 
 
 
 Readme text here 
 
-![readme](/readmeid-9898.svg?v=nrzxq98)
+![readme](/readmeid-9898.svg?v=n2utpp0)
 
 
 
 These are extracted and then added separately to the assembly to make them chop off the right parts when they assemble.  
 
-![readme](/readmeid-6929.svg?v=xjo530)
+![readme](/readmeid-6929.svg?v=nn744d2)
 
 
 
