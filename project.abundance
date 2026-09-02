@@ -6,56 +6,90 @@
   "name": "Table_With_Tapered_Legs_and_Rounded_Corners",
   "ioValues": [
     {
+      "name": "WoodThick",
+      "ioValue": 19.05
+    },
+    {
       "name": "TableLength",
-      "ioValue": 800
+      "ioValue": 820,
+      "currentEquation": "820"
+    },
+    {
+      "name": "TableWidth",
+      "ioValue": 1200.15,
+      "currentEquation": "1200.15"
     },
     {
       "name": "TopHeight",
-      "ioValue": 700
+      "ioValue": 635,
+      "currentEquation": "635"
+    },
+    {
+      "name": "EdgeLip",
+      "ioValue": 25,
+      "currentEquation": "25"
     },
     {
       "name": "LegWidth",
       "ioValue": 100
     },
     {
-      "name": "CornerRound",
-      "ioValue": 60
-    },
-    {
-      "name": "NutWidth",
-      "ioValue": 12
-    },
-    {
-      "name": "ScrewHead",
-      "ioValue": 6
-    },
-    {
-      "name": "WoodThick",
-      "ioValue": 19.05
-    },
-    {
-      "name": "TableWidth",
-      "ioValue": 1000
-    },
-    {
-      "name": "EdgeLip",
-      "ioValue": 30
-    },
-    {
       "name": "EdgeHeight",
       "ioValue": 90
+    },
+    {
+      "name": "CornerRound",
+      "ioValue": 60
     },
     {
       "name": "BoltDiameter",
       "ioValue": 6
     },
     {
+      "name": "NutWidth",
+      "ioValue": 12
+    },
+    {
       "name": "NutThick",
+      "ioValue": 6
+    },
+    {
+      "name": "ScrewHead",
       "ioValue": 6
     }
   ],
   "topLevel": true,
   "allAtoms": [
+    {
+      "atomType": "Export",
+      "x": 0.6878048780487805,
+      "y": 0.8271604938271605,
+      "uniqueID": "id-10324",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Table_With_Tapered_Legs_and_Rounded_Corners",
+          "currentEquation": "Table_With_Tapered_Legs_and_Rounded_Corners"
+        }
+      ],
+      "type": "STL",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Table_With_Tapered_Legs_and_Rounded_Corners"
+    },
     {
       "atomType": "Output",
       "x": 0.98,
@@ -111,931 +145,6 @@
       "name": "LegWidth"
     },
     {
-      "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.7076923076923077,
-      "uniqueID": "id-5274",
-      "name": "EdgeHeight"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.8,
-      "uniqueID": "id-6000",
-      "name": "CornerRound"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.8923076923076924,
-      "uniqueID": "id-6003",
-      "name": "BoltDiameter"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.95,
-      "uniqueID": "id-6006",
-      "name": "NutWidth"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.95,
-      "uniqueID": "id-6009",
-      "name": "NutThick"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.95,
-      "uniqueID": "id-6034",
-      "name": "ScrewHead"
-    },
-    {
-      "atomType": "Assembly",
-      "x": 0.6984897518878102,
-      "y": 0.16397228637413394,
-      "uniqueID": "id-6169",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 3",
-          "ioValue": null
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.807982740021575,
-      "y": 0.17321016166281755,
-      "uniqueID": "id-6173",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0
-        },
-        {
-          "name": "zDist",
-          "ioValue": 680.95,
-          "currentEquation": "TopHeight - WoodThick"
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.3964401294498382,
-      "y": 0.4780600461893765,
-      "uniqueID": "id-6479",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": -470,
-          "currentEquation": "-TableWidth/2 + EdgeLip"
-        },
-        {
-          "name": "yDist",
-          "ioValue": 370,
-          "currentEquation": "TableLength/2 -EdgeLip"
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Rotate",
-      "x": 0.3532901833872708,
-      "y": 0.6351039260969977,
-      "uniqueID": "id-6491",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "x-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": 270
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.395361380798274,
-      "y": 0.6235565819861432,
-      "uniqueID": "id-6497",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": 470,
-          "currentEquation": "TableWidth/2 - EdgeLip"
-        },
-        {
-          "name": "yDist",
-          "ioValue": 370,
-          "currentEquation": "TableLength/2 -EdgeLip"
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Rotate",
-      "x": 0.35382955771305286,
-      "y": 0.7621247113163973,
-      "uniqueID": "id-6503",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "x-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": 90
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.395361380798274,
-      "y": 0.7575057736720554,
-      "uniqueID": "id-6504",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": -470,
-          "currentEquation": "-(TableWidth/2 - EdgeLip)"
-        },
-        {
-          "name": "yDist",
-          "ioValue": -370,
-          "currentEquation": "-(TableLength/2 -EdgeLip)"
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Rotate",
-      "x": 0.3532901833872708,
-      "y": 0.8822170900692841,
-      "uniqueID": "id-6515",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "x-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": 180
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.3969795037756203,
-      "y": 0.8960739030023095,
-      "uniqueID": "id-6516",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": 470,
-          "currentEquation": "TableWidth/2 - EdgeLip"
-        },
-        {
-          "name": "yDist",
-          "ioValue": -370,
-          "currentEquation": "-(TableLength/2 -EdgeLip)"
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Assembly",
-      "x": 0.47572815533980584,
-      "y": 0.6836027713625865,
-      "uniqueID": "id-6536",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 3",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 4",
-          "ioValue": null
-        }
-      ]
-    },
-    {
-      "atomType": "ExtractTag",
-      "x": 0.540453074433657,
-      "y": 0.5427251732101617,
-      "uniqueID": "id-6543",
-      "name": "Extract Tag",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "tag": "Leg",
-      "tagIndex": 0,
-      "selectedTags": [
-        "Leg"
-      ],
-      "includeUntagged": false,
-      "notKeepOut": false
-    },
-    {
-      "atomType": "ExtractTag",
-      "x": 0.5447680690399137,
-      "y": 0.7575057736720554,
-      "uniqueID": "id-6546",
-      "name": "Extract Tag",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "tag": "Brace",
-      "tagIndex": 0,
-      "selectedTags": [
-        "Brace"
-      ],
-      "includeUntagged": false,
-      "notKeepOut": false
-    },
-    {
-      "atomType": "Tag",
-      "x": 0.37594390507011866,
-      "y": 0.14549653579676675,
-      "uniqueID": "id-6549",
-      "name": "Top",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "tags": [
-        "Top"
-      ]
-    },
-    {
-      "atomType": "Readme",
-      "x": 0.9093851132686085,
-      "y": 0.15473441108545033,
-      "uniqueID": "id-6569",
-      "name": "README",
-      "ioValues": [
-        {
-          "name": "value",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "readMeText": "Parametric Table.  It would need 32 wood Screws to attach the legs at the top of the corners. There are four pockets ready for screws at each corner inside and then you would need to screw the edge boards to the leg with two more screws on each side. It would also need screws to attach the table top.  you could make pocket screw holes or add about a 1 inch by 1 inch piece along the inside edge of the top to screw the table and the edge to.  \nYou will need 4 bolts, washers and 4 nuts. Enter the size of these into the parameters. The nut should be hexagonal and measured across 2 opposite parallel faces. The nut will drop into the hole on top of the leg and the bolt will slide through the brace and then into it. \nYou will probably need to use a compound miter saw to trim the corners of the edges and braces. ",
-      "global": true
-    },
-    {
-      "atomType": "CutLayout",
-      "x": 0.7125134843581445,
-      "y": 0.3672055427251732,
-      "uniqueID": "id-6922",
-      "name": "Cut Layout",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Sheet Width",
-          "ioValue": 2438
-        },
-        {
-          "name": "Sheet Height",
-          "ioValue": 1219
-        },
-        {
-          "name": "Part Padding",
-          "ioValue": 10
-        },
-        {
-          "name": "Orientations",
-          "ioValue": 4
-        }
-      ],
-      "placements": [
-        [
-          {
-            "id": 4,
-            "rotate": 90,
-            "translate": {
-              "x": 405.20000000000005,
-              "y": 505.20000000000005
-            }
-          },
-          {
-            "id": 10,
-            "rotate": 45,
-            "translate": {
-              "x": 1077.125253844955,
-              "y": 2000
-            }
-          },
-          {
-            "id": 14,
-            "rotate": 135,
-            "translate": {
-              "x": 1300,
-              "y": 2000
-            }
-          },
-          {
-            "id": 8,
-            "rotate": 0,
-            "translate": {
-              "x": 2000,
-              "y": 526.5808498611327
-            }
-          },
-          {
-            "id": 3,
-            "rotate": 45,
-            "translate": {
-              "x": 1012.9508674536534,
-              "y": -1000
-            }
-          },
-          {
-            "id": 11,
-            "rotate": 135,
-            "translate": {
-              "x": 1500,
-              "y": 2000
-            }
-          },
-          {
-            "id": 0,
-            "rotate": 45,
-            "translate": {
-              "x": 1200,
-              "y": -1000
-            }
-          },
-          {
-            "id": 1,
-            "rotate": 135,
-            "translate": {
-              "x": 1400,
-              "y": -1000
-            }
-          },
-          {
-            "id": 15,
-            "rotate": 45,
-            "translate": {
-              "x": 1600,
-              "y": 2000
-            }
-          },
-          {
-            "id": 16,
-            "rotate": 45,
-            "translate": {
-              "x": 1800,
-              "y": 2000
-            }
-          },
-          {
-            "id": 5,
-            "rotate": 0,
-            "translate": {
-              "x": 1532.9988559088824,
-              "y": 1158.399999999999
-            }
-          },
-          {
-            "id": 12,
-            "rotate": 135,
-            "translate": {
-              "x": 2000,
-              "y": 2000
-            }
-          },
-          {
-            "id": 2,
-            "rotate": 135,
-            "translate": {
-              "x": 1600,
-              "y": -1000
-            }
-          },
-          {
-            "id": 13,
-            "rotate": 135,
-            "translate": {
-              "x": 2400,
-              "y": 2000
-            }
-          },
-          {
-            "id": 9,
-            "rotate": 45,
-            "translate": {
-              "x": 2200,
-              "y": 2000
-            }
-          },
-          {
-            "id": 7,
-            "rotate": 90,
-            "translate": {
-              "x": 348.25923163886733,
-              "y": 1158.3999999999999
-            }
-          },
-          {
-            "id": 6,
-            "rotate": 0,
-            "translate": {
-              "x": 1565.7372976624933,
-              "y": 50.20000002433918
-            }
-          }
-        ]
-      ]
-    },
-    {
-      "atomType": "Readme",
-      "x": 0.5447680690399137,
-      "y": 0.9099307159353348,
-      "uniqueID": "id-6929",
-      "name": "README",
-      "ioValues": [
-        {
-          "name": "value",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "readMeText": "These are extracted and then added separately to the assembly to make them chop off the right parts when they assemble. ",
-      "global": true
-    },
-    {
-      "atomType": "CutLayout",
-      "x": 0.8101402373247033,
-      "y": 0.32101616628175517,
-      "uniqueID": "id-8556",
-      "name": "Cut Layout",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Sheet Width",
-          "ioValue": 10000
-        },
-        {
-          "name": "Sheet Height",
-          "ioValue": 10000
-        },
-        {
-          "name": "Part Padding",
-          "ioValue": 100
-        },
-        {
-          "name": "Orientations",
-          "ioValue": 12
-        }
-      ],
-      "placements": [
-        [
-          {
-            "id": 13,
-            "rotate": 180,
-            "translate": {
-              "x": 316.1243800851301,
-              "y": 299.10158697766474
-            }
-          },
-          {
-            "id": 8,
-            "rotate": 60,
-            "translate": {
-              "x": 373.469239181479,
-              "y": 588.2881675734354
-            }
-          },
-          {
-            "id": 5,
-            "rotate": 150,
-            "translate": {
-              "x": 460.07177804260186,
-              "y": 758.143148105513
-            }
-          },
-          {
-            "id": 4,
-            "rotate": 0,
-            "translate": {
-              "x": 550.2,
-              "y": 1522.5369152
-            }
-          },
-          {
-            "id": 7,
-            "rotate": 210,
-            "translate": {
-              "x": 967.2274806117694,
-              "y": 698.8676760268977
-            }
-          },
-          {
-            "id": 16,
-            "rotate": 180,
-            "translate": {
-              "x": 315.3650429449556,
-              "y": 2271.838502177664
-            }
-          },
-          {
-            "id": 11,
-            "rotate": 30,
-            "translate": {
-              "x": 839.440058852507,
-              "y": 2131.715161505537
-            }
-          },
-          {
-            "id": 1,
-            "rotate": 180,
-            "translate": {
-              "x": 147.15086745365335,
-              "y": 2428.9065015220067
-            }
-          },
-          {
-            "id": 6,
-            "rotate": 60,
-            "translate": {
-              "x": 870.3514799600955,
-              "y": 2725.1147344339456
-            }
-          },
-          {
-            "id": 3,
-            "rotate": 90,
-            "translate": {
-              "x": 281.7839986157343,
-              "y": 2563.5396326463474
-            }
-          },
-          {
-            "id": 2,
-            "rotate": 60,
-            "translate": {
-              "x": 154.48877611909893,
-              "y": 2789.637471072474
-            }
-          },
-          {
-            "id": 15,
-            "rotate": 90,
-            "translate": {
-              "x": 413.8488409885748,
-              "y": 2903.9828016299475
-            }
-          },
-          {
-            "id": 12,
-            "rotate": 30,
-            "translate": {
-              "x": 577.3626091723117,
-              "y": 3221.9349601336835
-            }
-          },
-          {
-            "id": 0,
-            "rotate": 300,
-            "translate": {
-              "x": 154.4887761204431,
-              "y": 126.67638105865534
-            }
-          },
-          {
-            "id": 9,
-            "rotate": 270,
-            "translate": {
-              "x": 858.2967354,
-              "y": 3478.8222735
-            }
-          },
-          {
-            "id": 14,
-            "rotate": 210,
-            "translate": {
-              "x": 382.3299784345878,
-              "y": 3954.233521939561
-            }
-          },
-          {
-            "id": 10,
-            "rotate": 150,
-            "translate": {
-              "x": 406.9459231892209,
-              "y": 4315.468405292962
-            }
-          }
-        ]
-      ]
-    },
-    {
-      "atomType": "CutLayout",
-      "x": 0.7179072276159654,
-      "y": 0.5127020785219399,
-      "uniqueID": "id-8584",
-      "name": "Cut Layout",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Sheet Width",
-          "ioValue": 2438
-        },
-        {
-          "name": "Sheet Height",
-          "ioValue": 1219
-        },
-        {
-          "name": "Part Padding",
-          "ioValue": 10
-        },
-        {
-          "name": "Orientations",
-          "ioValue": 2
-        }
-      ],
-      "placements": [
-        [
-          {
-            "id": 7,
-            "rotate": 0,
-            "translate": {
-              "x": 348.25923163679244,
-              "y": 50.20000000000017
-            }
-          },
-          {
-            "id": 4,
-            "rotate": 0,
-            "translate": {
-              "x": 405.2,
-              "y": 605.6
-            }
-          },
-          {
-            "id": 6,
-            "rotate": 0,
-            "translate": {
-              "x": 1190.5765591611328,
-              "y": 50.20000002433975
-            }
-          },
-          {
-            "id": 5,
-            "rotate": 180,
-            "translate": {
-              "x": 1208.2280408611327,
-              "y": 1158.3999999999996
-            }
-          },
-          {
-            "id": 8,
-            "rotate": 0,
-            "translate": {
-              "x": 860.6,
-              "y": 759.9407683632073
-            }
-          },
-          {
-            "id": 15,
-            "rotate": 180,
-            "translate": {
-              "x": 966.0000000000007,
-              "y": 752.9999999999998
-            }
-          },
-          {
-            "id": 13,
-            "rotate": 0,
-            "translate": {
-              "x": 1009.4348783999994,
-              "y": 455.6000000243404
-            }
-          },
-          {
-            "id": 9,
-            "rotate": 0,
-            "translate": {
-              "x": 1119.8348784000007,
-              "y": 752.9999999999995
-            }
-          },
-          {
-            "id": 11,
-            "rotate": 180,
-            "translate": {
-              "x": 1163.2697568000008,
-              "y": 455.60000002433986
-            }
-          },
-          {
-            "id": 1,
-            "rotate": 180,
-            "translate": {
-              "x": 860.5999999999998,
-              "y": 197.70923166113295
-            }
-          },
-          {
-            "id": 10,
-            "rotate": 180,
-            "translate": {
-              "x": 1256.8637460346456,
-              "y": 753
-            }
-          },
-          {
-            "id": 12,
-            "rotate": 0,
-            "translate": {
-              "x": 1367.263746034646,
-              "y": 753
-            }
-          },
-          {
-            "id": 2,
-            "rotate": 0,
-            "translate": {
-              "x": 1268.6697568000002,
-              "y": 197.70923166113295
-            }
-          },
-          {
-            "id": 3,
-            "rotate": 180,
-            "translate": {
-              "x": 1369.0697568000003,
-              "y": 300.49076836320694
-            }
-          },
-          {
-            "id": 14,
-            "rotate": 180,
-            "translate": {
-              "x": 1477.663746034646,
-              "y": 753.0000000000002
-            }
-          },
-          {
-            "id": 0,
-            "rotate": 0,
-            "translate": {
-              "x": 1469.4697568000001,
-              "y": 300.4907683632068
-            }
-          },
-          {
-            "id": 16,
-            "rotate": 0,
-            "translate": {
-              "x": 1545.4756736039349,
-              "y": 752.9999999999995
-            }
-          }
-        ]
-      ]
-    },
-    {
-      "atomType": "Export",
-      "x": 0.8635382955771306,
-      "y": 0.5565819861431871,
-      "uniqueID": "id-9893",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STL",
-          "currentEquation": "STL"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Table_With_Tapered_Legs_and_Rounded_Corners",
-          "currentEquation": "Table_With_Tapered_Legs_and_Rounded_Corners"
-        }
-      ],
-      "type": null,
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "Table_With_Tapered_Legs_and_Rounded_Corners"
-    },
-    {
-      "atomType": "Readme",
-      "x": 0.7961165048543689,
-      "y": 0.6605080831408776,
-      "uniqueID": "id-9898",
-      "name": "README",
-      "ioValues": [
-        {
-          "name": "value",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "readMeText": "Readme text here",
-      "global": true
-    },
-    {
       "atomType": "Molecule",
       "x": 0.1429341963322546,
       "y": 0.6166281755196305,
@@ -1049,7 +158,7 @@
         },
         {
           "name": "TopHeight",
-          "ioValue": 700,
+          "ioValue": 635,
           "currentEquation": "TopHeight"
         },
         {
@@ -1197,7 +306,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 655
+              "ioValue": 590
             },
             {
               "name": "zDist",
@@ -1254,7 +363,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-rectangle-50-90-75-655-0",
+                "geometry": "move-rectangle-50-90-75-590-0",
                 "dimension": "2D",
                 "plane": {
                   "origin": [
@@ -2028,7 +1137,7 @@
           "ioValues": [
             {
               "name": "TH",
-              "ioValue": 700
+              "ioValue": 635
             },
             {
               "name": "EH",
@@ -2377,6 +1486,41 @@
       "fileTypeVersion": 1
     },
     {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.7076923076923077,
+      "uniqueID": "id-5274",
+      "name": "EdgeHeight"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.8,
+      "uniqueID": "id-6000",
+      "name": "CornerRound"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.8923076923076924,
+      "uniqueID": "id-6003",
+      "name": "BoltDiameter"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.95,
+      "uniqueID": "id-6006",
+      "name": "NutWidth"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.95,
+      "uniqueID": "id-6009",
+      "name": "NutThick"
+    },
+    {
       "atomType": "Molecule",
       "x": 0.13969795037756202,
       "y": 0.2817551963048499,
@@ -2390,12 +1534,12 @@
         },
         {
           "name": "TableWidth",
-          "ioValue": 1000,
+          "ioValue": 1200.15,
           "currentEquation": "TableWidth"
         },
         {
           "name": "TableLength",
-          "ioValue": 800,
+          "ioValue": 820,
           "currentEquation": "TableLength"
         },
         {
@@ -2410,7 +1554,7 @@
         },
         {
           "name": "EdgeLip",
-          "ioValue": 30,
+          "ioValue": 25,
           "currentEquation": "EdgeLip"
         },
         {
@@ -2506,11 +1650,11 @@
             },
             {
               "name": "xDist",
-              "ioValue": 440
+              "ioValue": 540.075
             },
             {
               "name": "yDist",
-              "ioValue": 340
+              "ioValue": 350
             },
             {
               "name": "zDist",
@@ -2530,11 +1674,11 @@
             },
             {
               "name": "xDist",
-              "ioValue": 440
+              "ioValue": 540.075
             },
             {
               "name": "yDist",
-              "ioValue": -340
+              "ioValue": -350
             },
             {
               "name": "zDist",
@@ -2554,11 +1698,11 @@
             },
             {
               "name": "xDist",
-              "ioValue": -440
+              "ioValue": -540.075
             },
             {
               "name": "yDist",
-              "ioValue": 340
+              "ioValue": 350
             },
             {
               "name": "zDist",
@@ -2578,11 +1722,11 @@
             },
             {
               "name": "xDist",
-              "ioValue": -440
+              "ioValue": -540.075
             },
             {
               "name": "yDist",
-              "ioValue": -340
+              "ioValue": -350
             },
             {
               "name": "zDist",
@@ -2620,7 +1764,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-circle-60-440-340-0",
+                "geometry": "move-circle-60-540.075-350-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -2647,7 +1791,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-circle-60-440--340-0",
+                "geometry": "move-circle-60-540.075--350-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -2674,7 +1818,7 @@
             {
               "name": "Shape 3",
               "ioValue": {
-                "geometry": "move-circle-60--440-340-0",
+                "geometry": "move-circle-60--540.075-350-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -2701,7 +1845,7 @@
             {
               "name": "Shape 4",
               "ioValue": {
-                "geometry": "move-circle-60--440--340-0",
+                "geometry": "move-circle-60--540.075--350-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -2755,7 +1899,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 886.1184632735851
+              "ioValue": 1096.2684632735852
             },
             {
               "name": "y length",
@@ -2795,7 +1939,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 360.475
+              "ioValue": 375.475
             },
             {
               "name": "zDist",
@@ -2819,7 +1963,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": -360.475
+              "ioValue": -375.475
             },
             {
               "name": "zDist",
@@ -2839,7 +1983,7 @@
             },
             {
               "name": "y length",
-              "ioValue": 686.1184632735851
+              "ioValue": 716.1184632735851
             }
           ]
         },
@@ -2871,7 +2015,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 460.475
+              "ioValue": 565.5500000000001
             },
             {
               "name": "yDist",
@@ -2895,7 +2039,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": -460.475
+              "ioValue": -565.5500000000001
             },
             {
               "name": "yDist",
@@ -3020,7 +2164,7 @@
           "ioValues": [
             {
               "name": "TW",
-              "ioValue": 1000
+              "ioValue": 1200.15
             },
             {
               "name": "CR",
@@ -3052,7 +2196,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 440
+              "ioValue": 540.075
             }
           ],
           "currentEquation": "-x"
@@ -3066,7 +2210,7 @@
           "ioValues": [
             {
               "name": "TL",
-              "ioValue": 800
+              "ioValue": 820
             },
             {
               "name": "CR",
@@ -3084,7 +2228,7 @@
           "ioValues": [
             {
               "name": "y",
-              "ioValue": 340
+              "ioValue": 350
             }
           ],
           "currentEquation": "-y"
@@ -3098,7 +2242,7 @@
           "ioValues": [
             {
               "name": "TW",
-              "ioValue": 1000
+              "ioValue": 1200.15
             },
             {
               "name": "WT",
@@ -3106,7 +2250,7 @@
             },
             {
               "name": "EL",
-              "ioValue": 30
+              "ioValue": 25
             }
           ],
           "currentEquation": "TW - 2* sqrt(2) *WT - 2*EL"
@@ -3120,11 +2264,11 @@
           "ioValues": [
             {
               "name": "TL",
-              "ioValue": 800
+              "ioValue": 820
             },
             {
               "name": "EL",
-              "ioValue": 30
+              "ioValue": 25
             },
             {
               "name": "WT",
@@ -3142,7 +2286,7 @@
           "ioValues": [
             {
               "name": "TL",
-              "ioValue": 800
+              "ioValue": 820
             },
             {
               "name": "WT",
@@ -3150,7 +2294,7 @@
             },
             {
               "name": "EL",
-              "ioValue": 30
+              "ioValue": 25
             }
           ],
           "currentEquation": "TL - 2*sqrt(2)*WT - 2*EL"
@@ -3164,7 +2308,7 @@
           "ioValues": [
             {
               "name": "y",
-              "ioValue": 360.475
+              "ioValue": 375.475
             }
           ],
           "currentEquation": "-y"
@@ -3178,11 +2322,11 @@
           "ioValues": [
             {
               "name": "TW",
-              "ioValue": 1000
+              "ioValue": 1200.15
             },
             {
               "name": "EL",
-              "ioValue": 30
+              "ioValue": 25
             },
             {
               "name": "WT",
@@ -3200,7 +2344,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 460.475
+              "ioValue": 565.5500000000001
             }
           ],
           "currentEquation": "-x"
@@ -3583,6 +2727,896 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.95,
+      "uniqueID": "id-6034",
+      "name": "ScrewHead"
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.7063414634146341,
+      "y": 0.17901234567901234,
+      "uniqueID": "id-6169",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.807982740021575,
+      "y": 0.17321016166281755,
+      "uniqueID": "id-6173",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 615.95,
+          "currentEquation": "TopHeight - WoodThick"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.3964401294498382,
+      "y": 0.4780600461893765,
+      "uniqueID": "id-6479",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": -575.075,
+          "currentEquation": "-TableWidth/2 + EdgeLip"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 385,
+          "currentEquation": "TableLength/2 -EdgeLip"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.3532901833872708,
+      "y": 0.6351039260969977,
+      "uniqueID": "id-6491",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 270
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.395361380798274,
+      "y": 0.6235565819861432,
+      "uniqueID": "id-6497",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 575.075,
+          "currentEquation": "TableWidth/2 - EdgeLip"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 385,
+          "currentEquation": "TableLength/2 -EdgeLip"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.35382955771305286,
+      "y": 0.7621247113163973,
+      "uniqueID": "id-6503",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 90
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.395361380798274,
+      "y": 0.7575057736720554,
+      "uniqueID": "id-6504",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": -575.075,
+          "currentEquation": "-(TableWidth/2 - EdgeLip)"
+        },
+        {
+          "name": "yDist",
+          "ioValue": -385,
+          "currentEquation": "-(TableLength/2 -EdgeLip)"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.3532901833872708,
+      "y": 0.8822170900692841,
+      "uniqueID": "id-6515",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 180
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.3969795037756203,
+      "y": 0.8960739030023095,
+      "uniqueID": "id-6516",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 575.075,
+          "currentEquation": "TableWidth/2 - EdgeLip"
+        },
+        {
+          "name": "yDist",
+          "ioValue": -385,
+          "currentEquation": "-(TableLength/2 -EdgeLip)"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.47572815533980584,
+      "y": 0.6836027713625865,
+      "uniqueID": "id-6536",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 4",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "ExtractTag",
+      "x": 0.540453074433657,
+      "y": 0.5427251732101617,
+      "uniqueID": "id-6543",
+      "name": "Extract Tag",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tag": "Leg",
+      "tagIndex": 0,
+      "selectedTags": [
+        "Leg"
+      ],
+      "includeUntagged": false,
+      "notKeepOut": false
+    },
+    {
+      "atomType": "ExtractTag",
+      "x": 0.5447680690399137,
+      "y": 0.7575057736720554,
+      "uniqueID": "id-6546",
+      "name": "Extract Tag",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tag": "Brace",
+      "tagIndex": 0,
+      "selectedTags": [
+        "Brace"
+      ],
+      "includeUntagged": false,
+      "notKeepOut": false
+    },
+    {
+      "atomType": "Tag",
+      "x": 0.37594390507011866,
+      "y": 0.14549653579676675,
+      "uniqueID": "id-6549",
+      "name": "Top",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tags": [
+        "Top"
+      ]
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.9093851132686085,
+      "y": 0.15473441108545033,
+      "uniqueID": "id-6569",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "Parametric Table.  It would need 32 wood Screws to attach the legs at the top of the corners. There are four pockets ready for screws at each corner inside and then you would need to screw the edge boards to the leg with two more screws on each side. It would also need screws to attach the table top.  you could make pocket screw holes or add about a 1 inch by 1 inch piece along the inside edge of the top to screw the table and the edge to.  \nYou will need 4 bolts, washers and 4 nuts. Enter the size of these into the parameters. The nut should be hexagonal and measured across 2 opposite parallel faces. The nut will drop into the hole on top of the leg and the bolt will slide through the brace and then into it. \nYou will probably need to use a compound miter saw to trim the corners of the edges and braces. ",
+      "global": true
+    },
+    {
+      "atomType": "CutLayout",
+      "x": 0.7125134843581445,
+      "y": 0.3672055427251732,
+      "uniqueID": "id-6922",
+      "name": "Cut Layout",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Sheet Width",
+          "ioValue": 2438
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 1219
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 10
+        },
+        {
+          "name": "Orientations",
+          "ioValue": 4
+        }
+      ],
+      "placements": [
+        [
+          {
+            "id": 4,
+            "rotate": 90,
+            "translate": {
+              "x": 405.20000000000005,
+              "y": 505.20000000000005
+            }
+          },
+          {
+            "id": 10,
+            "rotate": 45,
+            "translate": {
+              "x": 1077.125253844955,
+              "y": 2000
+            }
+          },
+          {
+            "id": 14,
+            "rotate": 135,
+            "translate": {
+              "x": 1300,
+              "y": 2000
+            }
+          },
+          {
+            "id": 8,
+            "rotate": 0,
+            "translate": {
+              "x": 2000,
+              "y": 526.5808498611327
+            }
+          },
+          {
+            "id": 3,
+            "rotate": 45,
+            "translate": {
+              "x": 1012.9508674536534,
+              "y": -1000
+            }
+          },
+          {
+            "id": 11,
+            "rotate": 135,
+            "translate": {
+              "x": 1500,
+              "y": 2000
+            }
+          },
+          {
+            "id": 0,
+            "rotate": 45,
+            "translate": {
+              "x": 1200,
+              "y": -1000
+            }
+          },
+          {
+            "id": 1,
+            "rotate": 135,
+            "translate": {
+              "x": 1400,
+              "y": -1000
+            }
+          },
+          {
+            "id": 15,
+            "rotate": 45,
+            "translate": {
+              "x": 1600,
+              "y": 2000
+            }
+          },
+          {
+            "id": 16,
+            "rotate": 45,
+            "translate": {
+              "x": 1800,
+              "y": 2000
+            }
+          },
+          {
+            "id": 5,
+            "rotate": 0,
+            "translate": {
+              "x": 1532.9988559088824,
+              "y": 1158.399999999999
+            }
+          },
+          {
+            "id": 12,
+            "rotate": 135,
+            "translate": {
+              "x": 2000,
+              "y": 2000
+            }
+          },
+          {
+            "id": 2,
+            "rotate": 135,
+            "translate": {
+              "x": 1600,
+              "y": -1000
+            }
+          },
+          {
+            "id": 13,
+            "rotate": 135,
+            "translate": {
+              "x": 2400,
+              "y": 2000
+            }
+          },
+          {
+            "id": 9,
+            "rotate": 45,
+            "translate": {
+              "x": 2200,
+              "y": 2000
+            }
+          },
+          {
+            "id": 7,
+            "rotate": 90,
+            "translate": {
+              "x": 348.25923163886733,
+              "y": 1158.3999999999999
+            }
+          },
+          {
+            "id": 6,
+            "rotate": 0,
+            "translate": {
+              "x": 1565.7372976624933,
+              "y": 50.20000002433918
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.5447680690399137,
+      "y": 0.9099307159353348,
+      "uniqueID": "id-6929",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "These are extracted and then added separately to the assembly to make them chop off the right parts when they assemble. ",
+      "global": true
+    },
+    {
+      "atomType": "CutLayout",
+      "x": 0.8101402373247033,
+      "y": 0.32101616628175517,
+      "uniqueID": "id-8556",
+      "name": "Cut Layout",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Sheet Width",
+          "ioValue": 10000
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 10000
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 100
+        },
+        {
+          "name": "Orientations",
+          "ioValue": 12
+        }
+      ],
+      "placements": [
+        [
+          {
+            "id": 13,
+            "rotate": 180,
+            "translate": {
+              "x": 316.1243800851301,
+              "y": 299.10158697766474
+            }
+          },
+          {
+            "id": 8,
+            "rotate": 60,
+            "translate": {
+              "x": 373.469239181479,
+              "y": 588.2881675734354
+            }
+          },
+          {
+            "id": 5,
+            "rotate": 150,
+            "translate": {
+              "x": 460.07177804260186,
+              "y": 758.143148105513
+            }
+          },
+          {
+            "id": 4,
+            "rotate": 0,
+            "translate": {
+              "x": 550.2,
+              "y": 1522.5369152
+            }
+          },
+          {
+            "id": 7,
+            "rotate": 210,
+            "translate": {
+              "x": 967.2274806117694,
+              "y": 698.8676760268977
+            }
+          },
+          {
+            "id": 16,
+            "rotate": 180,
+            "translate": {
+              "x": 315.3650429449556,
+              "y": 2271.838502177664
+            }
+          },
+          {
+            "id": 11,
+            "rotate": 30,
+            "translate": {
+              "x": 839.440058852507,
+              "y": 2131.715161505537
+            }
+          },
+          {
+            "id": 1,
+            "rotate": 180,
+            "translate": {
+              "x": 147.15086745365335,
+              "y": 2428.9065015220067
+            }
+          },
+          {
+            "id": 6,
+            "rotate": 60,
+            "translate": {
+              "x": 870.3514799600955,
+              "y": 2725.1147344339456
+            }
+          },
+          {
+            "id": 3,
+            "rotate": 90,
+            "translate": {
+              "x": 281.7839986157343,
+              "y": 2563.5396326463474
+            }
+          },
+          {
+            "id": 2,
+            "rotate": 60,
+            "translate": {
+              "x": 154.48877611909893,
+              "y": 2789.637471072474
+            }
+          },
+          {
+            "id": 15,
+            "rotate": 90,
+            "translate": {
+              "x": 413.8488409885748,
+              "y": 2903.9828016299475
+            }
+          },
+          {
+            "id": 12,
+            "rotate": 30,
+            "translate": {
+              "x": 577.3626091723117,
+              "y": 3221.9349601336835
+            }
+          },
+          {
+            "id": 0,
+            "rotate": 300,
+            "translate": {
+              "x": 154.4887761204431,
+              "y": 126.67638105865534
+            }
+          },
+          {
+            "id": 9,
+            "rotate": 270,
+            "translate": {
+              "x": 858.2967354,
+              "y": 3478.8222735
+            }
+          },
+          {
+            "id": 14,
+            "rotate": 210,
+            "translate": {
+              "x": 382.3299784345878,
+              "y": 3954.233521939561
+            }
+          },
+          {
+            "id": 10,
+            "rotate": 150,
+            "translate": {
+              "x": 406.9459231892209,
+              "y": 4315.468405292962
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "atomType": "CutLayout",
+      "x": 0.7179072276159654,
+      "y": 0.5127020785219399,
+      "uniqueID": "id-8584",
+      "name": "Cut Layout",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Sheet Width",
+          "ioValue": 2438
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 1219
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 10
+        },
+        {
+          "name": "Orientations",
+          "ioValue": 2
+        }
+      ],
+      "placements": [
+        [
+          {
+            "id": 7,
+            "rotate": 0,
+            "translate": {
+              "x": 348.25923163679244,
+              "y": 50.20000000000017
+            }
+          },
+          {
+            "id": 4,
+            "rotate": 0,
+            "translate": {
+              "x": 405.2,
+              "y": 605.6
+            }
+          },
+          {
+            "id": 6,
+            "rotate": 0,
+            "translate": {
+              "x": 1190.5765591611328,
+              "y": 50.20000002433975
+            }
+          },
+          {
+            "id": 5,
+            "rotate": 180,
+            "translate": {
+              "x": 1208.2280408611327,
+              "y": 1158.3999999999996
+            }
+          },
+          {
+            "id": 8,
+            "rotate": 0,
+            "translate": {
+              "x": 860.6,
+              "y": 759.9407683632073
+            }
+          },
+          {
+            "id": 15,
+            "rotate": 180,
+            "translate": {
+              "x": 966.0000000000007,
+              "y": 752.9999999999998
+            }
+          },
+          {
+            "id": 13,
+            "rotate": 0,
+            "translate": {
+              "x": 1009.4348783999994,
+              "y": 455.6000000243404
+            }
+          },
+          {
+            "id": 9,
+            "rotate": 0,
+            "translate": {
+              "x": 1119.8348784000007,
+              "y": 752.9999999999995
+            }
+          },
+          {
+            "id": 11,
+            "rotate": 180,
+            "translate": {
+              "x": 1163.2697568000008,
+              "y": 455.60000002433986
+            }
+          },
+          {
+            "id": 1,
+            "rotate": 180,
+            "translate": {
+              "x": 860.5999999999998,
+              "y": 197.70923166113295
+            }
+          },
+          {
+            "id": 10,
+            "rotate": 180,
+            "translate": {
+              "x": 1256.8637460346456,
+              "y": 753
+            }
+          },
+          {
+            "id": 12,
+            "rotate": 0,
+            "translate": {
+              "x": 1367.263746034646,
+              "y": 753
+            }
+          },
+          {
+            "id": 2,
+            "rotate": 0,
+            "translate": {
+              "x": 1268.6697568000002,
+              "y": 197.70923166113295
+            }
+          },
+          {
+            "id": 3,
+            "rotate": 180,
+            "translate": {
+              "x": 1369.0697568000003,
+              "y": 300.49076836320694
+            }
+          },
+          {
+            "id": 14,
+            "rotate": 180,
+            "translate": {
+              "x": 1477.663746034646,
+              "y": 753.0000000000002
+            }
+          },
+          {
+            "id": 0,
+            "rotate": 0,
+            "translate": {
+              "x": 1469.4697568000001,
+              "y": 300.4907683632068
+            }
+          },
+          {
+            "id": 16,
+            "rotate": 0,
+            "translate": {
+              "x": 1545.4756736039349,
+              "y": 752.9999999999995
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "atomType": "Export",
+      "x": 0.8692682926829268,
+      "y": 0.5740740740740741,
+      "uniqueID": "id-9893",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Table_With_Tapered_Legs_and_Rounded_Corners",
+          "currentEquation": "Table_With_Tapered_Legs_and_Rounded_Corners"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Table_With_Tapered_Legs_and_Rounded_Corners"
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.7961165048543689,
+      "y": 0.6605080831408776,
+      "uniqueID": "id-9898",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "Readme text here",
+      "global": true
     }
   ],
   "allConnectors": [
@@ -3665,6 +3699,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-6169",
       "ap2ID": "id-6173"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-6169",
+      "ap2ID": "id-10324"
     },
     {
       "ap2Name": "number or geometry",
